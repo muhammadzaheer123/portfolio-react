@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 230, 216);
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-nav {
+    width: 15%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    color: white;
+    border-bottom: 1.4px solid gray;
+    padding: 0.5rem;
+    transition: all ease-out 0.5s;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.main-hero {
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #151515;
+
+}
+
+.hero-sec {
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 5%;
+    gap: 20px;
+}
+
+.fisrt-para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+
+.span-first {
+    color: #F65618;
+}
+
+.span-sec {
+    color: #F65618;
+}
+
+.second-para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+
+.main-para {
+    width: 70%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-heroo {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    padding: 1rem;
+}
+
+.hero-btn {
+    width: 130px;
+    height: 35px;
+    background-color: #F65618;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.hero-btn-02 {
+    width: 130px;
+    height: 35px;
+    background-color: #F65618;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+
+.image-hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-hero img {
+    width: 310px;
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15%;
+    left: 35%;
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+    padding: 0.8rem;
+}
+
+.UIUX {
+    width: 11%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    border-radius: 23px;
+    position: relative;
+    left: 55%;
+    bottom: 20px;
+
+}
+
+.UIUX img {
+    width: 47px;
+    height: 100%;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.UIUX-logos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.UIUX-logos h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.UIUX-logos p {
+    width: 80%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #a5a0a0;
+}
+
+.second-hero-sec {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 3rem;
+}
+
+.second-hero-sec h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: oblique;
+    transition: 0.4s all ease-in;
+}
+
+.second-hero-sec h1:hover {
+    border-bottom: 3px solid purple;
+    padding: 0.5rem;
+}
+
+.second-hero-sec p {
+    width: 70%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(116, 113, 113);
+}
+
+.third-section {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    gap: 15px;
+}
+
+.third-section img {
+    width: 550px;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.third-section p {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.btn-third-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-third-sec button {
+    width: 210px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative;
+    left: 52%;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 650;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+    letter-spacing: 1px;
+}
+
+.btn-third-sec button:hover {
+    background-color: #F65618;
+    border: none;
+    color: white;
+}
+
+.main-services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.service-img {
+    width: 40px;
+    height: 100%;
+    margin: auto;
+}
+
+.service-01 {
+    width: 31.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+    padding: 1.5rem;
+}
+
+.service-01:hover {
+    box-shadow: 0px 0px 17px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-01 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.service-01 p {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.first-service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sec-service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo-service {
+    color: #F65618;
+}
+
+.service {
+    color: #F65618;
+}
+
+.logoss {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.logoss h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 43px;
+    text-align: center;
+}
+
+.logoss p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #858886;
+    text-align: center;
+}
+
+.logo-service-01 {
+    border-bottom: 3px solid #F65618;
+    padding: 0.3rem;
+}
+
+.service-para-01 {
+    width: 40%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: black !important;
+    position: relative;
+    left: 30%;
+    margin-top: 2rem;
+}
+
+.Service-btn {
+    width: 140px;
+    height: 38px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-top: 1rem;
+    position: relative;
+    left: 17%;
+    transition: 0.5s linear all;
+    border: 0.1px solid rgb(212, 207, 207);
+}
+
+.Service-btn:hover {
+    background-color: #F65618;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 460px) {
+
+    .main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-nav {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #222222;
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-hero {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #151515;
+        padding: 20px;
+    }
+
+    .hero-sec {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .image-hero {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image-hero img {
+        width: 310px;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        border-left: 1.5px solid white;
+        border-right: 1.5px solid white;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        left: -0.1%;
+        top: 1%;
+        padding: 20px;
+    }
+
+    .third-section {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        gap: 15px;
+        padding: 20px;
+
+    }
+
+    .third-section img {
+        width: 550px;
+        height: 100%;
+        margin-top: 5rem;
+        padding: 20px;
+    }
+
+    .third-section p {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        padding: 20px;
+    }
+
+    .btn-third-sec button {
+        width: 210px;
+        height: 40px;
+        border: none;
+        outline: none;
+        color: black;
+        background-color: transparent;
+        border: 1px solid black;
+        margin-top: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 10px;
+        transition: all ease 0.5s;
+        margin-left: -40%;
+        padding: 20px;
+    }
+
+
+}
